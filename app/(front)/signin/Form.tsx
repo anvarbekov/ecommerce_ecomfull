@@ -14,7 +14,7 @@ const Form = () => {
   const { data: session } = useSession()
 
   const params = useSearchParams()
-  let callbackUrl = params.get('callbackUrl') || 'https://ecomfull.netlify.app/'
+  let callbackUrl = params.get('callbackUrl') || 'https://atlanticservice.netlify.app'
   const router = useRouter()
 
   const {
